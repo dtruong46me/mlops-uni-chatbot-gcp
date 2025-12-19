@@ -1,0 +1,31 @@
+{
+    "program_name": "15- ( EM-E13 ) Phân tích kinh doanh (Chương trình tiên tiến)",
+    "admission_code": "EM-E13",
+    "overview": {
+        "degree": "Cử nhân - Thạc sĩ - Tiến sĩ (NCS)",
+        "enrollment_time": "Tháng 8 hàng năm",
+        "duration": "4 - 6 - 9 năm",
+        "tuition": "40 - 45 triệu đồng/năm",
+        "description": "CTĐT Phân tích Kinh doanh được thiết kế hiện đại, theo chuẩn quốc tế với định hướng nền kinh tế số, chú trọng cung cấp kiến thức, kỹ năng ứng dụng công nghệ thông tin, phương pháp xử lý và phân tích dữ liệu để đưa ra các quyết định kinh doanh thông minh trong môi trường kinh doanh kinh tế số, xã hội số."
+    },
+    "training_program_summary": "Khối kiến thức đặc trưng Khoa học dữ liệu ứng dụng, Phân tích dữ liệu lớn và tri thức kinh doanh, Pythons ứng dụng trong kinh doanh, Dự báo kinh doanh, Quản trị rủi ro, Phân tích định hướng, Phân tích tài chính, Phân tích marketing. Thông tin chi tiết chương trình đào tạo - XEM TẠI ĐÂY",
+    "job_opportunities": [
+        "Sinh viên tốt nghiệp có thể ứng tuyển vào các vị trí như: Chuyên viên Phân tích dữ liệu, Chuyên viên Phân tích Kinh doanh, Chuyên viên Phân tích nghiệp vụ tại",
+        "Khối phân tích dữ liệu, quản trị vận hành, phân tích rủi ro của các NHTM;",
+        "Các sàn thương mại điện tử (Shopee, Lazada, Tiki..);",
+        "Các công ty công nghệ (FPT, VNPT, Viettel, CMC, One Mount..)"
+    ],
+    "contact": {
+        "phone": "098 845 6780",
+        "email": "trang.hathithu@hust.edu.vn",
+        "address": "Phòng 302 -304, Toà nhà C9, ĐHBK Hà Nội"
+    },
+    "management_unit": {
+        "name": "Trường Kinh tế",
+        "address": "P302-304 Nhà C9, Đại học Bách Khoa Hà Nội; Số 1 Đại Cồ Việt, Q. Hai Bà Trưng, Tp. Hà Nội",
+        "hotline": "024 38 692 304 / 3868.0791 / (CT TROY: 093 898 3868)",
+        "email": "sem@hust.edu.vn",
+        "website": "https://sem.hust.edu.vn"
+    },
+    "source_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/phan-tich-kinh-doanh-chuong-trinh-tien-tien"
+}

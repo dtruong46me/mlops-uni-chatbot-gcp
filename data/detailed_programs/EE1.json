@@ -1,0 +1,31 @@
+{
+    "program_name": "13- ( EE1 ) Kỹ thuật điện",
+    "admission_code": "EE1",
+    "overview": {
+        "degree": "Cử nhân - Thạc sĩ tích hợp - Tiến sĩ (NCS)",
+        "enrollment_time": "Tháng 4 - 8 hàng năm",
+        "duration": "4 - 5,5 - 8,5 năm",
+        "tuition": "22 - 28 triệu đồng/năm",
+        "description": "Ngành Kỹ thuật điện được phát triển dựa trên việc kế thừa truyền thống lịch sử và tiếp thu, tích hợp các chương trình đào tạo tiên tiến nhất của Mỹ, Châu Âu và Nhật Bản, nhấn mạnh vào việc xây dựng nền tảng học thuật vững chắc, từ nguyên lý cơ bản đến các chủ đề nâng cao như hệ thống điện thông minh, máy điện hiệu năng cao, năng lượng tái tạo và các phương pháp quản lý dự án năng lượng hiệu quả. Người học sẽ được trang bị kiến thức chuyên sâu và kỹ năng thực hành thông qua các hoạt động như làm việc trong phòng thí nghiệm, tham gia vào Lab nghiên cứu và thực tập công nghiệp, với mục tiêu phát triển thành chuyên gia hàng đầu trong lĩnh vực Kỹ thuật điện và năng lượng."
+    },
+    "training_program_summary": "Khối kiến thức đặc trưng Khoa học cơ bản: Toán học, Vật lý;Mạch điện: Lý thuyết mạch điện, Điện tử, Điện từ;Cơ sở đo lường điều khiển: Lập trình nhúng; Vi điều khiển;Chuyên sâu: Hệ thống điện; Năng lượng tái tạo; Máy điện và thiết bị điện; Điện công nghiệp. Chương trình đào tạo chi tiết: XEM TẠI ĐÂY",
+    "job_opportunities": [
+        "Thiết kế và tối ưu hệ thống điện, máy điện & thiết bị điện; Thiết kế và triển khai các hệ thống năng lượng tái tạo;",
+        "Quản lý các dự án năng lượng; Kỹ sư trưởng dự án;",
+        "Điều hành hệ thống điện, tòa nhà, hệ thống công nghiệp;Tư vấn cung cấp giải pháp chuyên gia cho khách hàng;",
+        "Nghiên cứu và phát triển, chuyên gia, nhà khoa học, giảng viên."
+    ],
+    "contact": {
+        "phone": "033 343 9321",
+        "email": "viet.nguyennga@hust.edu.vn",
+        "address": "Phòng E605, Toà nhà C7, ĐHBK Hà Nội"
+    },
+    "management_unit": {
+        "name": "Trường Điện - Điện tử (SEEE)",
+        "address": "Văn phòng: C1 - 320",
+        "hotline": "024 3869 6211&024 3623 1478",
+        "email": "seee@hust.edu.vn",
+        "website": "https://seee.hust.edu.vn/"
+    },
+    "source_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-dien"
+}

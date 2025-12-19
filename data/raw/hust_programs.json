@@ -1,0 +1,1850 @@
+[
+    {
+        "title": "01- ( BF-E12 ) Kỹ thuật thực phẩm (Chương trình tiên tiến)",
+        "admission_code": "BF-E12",
+        "language": "Tiếng Anh",
+        "quota": "60",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "B00B00:\n                                                                                                       Toán, Hoá, Sinh",
+                    "D07D07:\n                                                                                                       Toán, Anh văn, Hoá",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-thuc-pham-chuong-trinh-tien-tien"
+    },
+    {
+        "title": "02- ( BF-E19 ) Kỹ thuật sinh học (Chương trình tiên tiến)",
+        "admission_code": "BF-E19",
+        "language": "Tiếng Anh",
+        "quota": "60",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "B00B00:\n                                                                                                       Toán, Hoá, Sinh",
+                    "D07D07:\n                                                                                                       Toán, Anh văn, Hoá",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-sinh-hoc-chuong-trinh-tien-tien"
+    },
+    {
+        "title": "03- ( BF1 ) Kỹ thuật Sinh học",
+        "admission_code": "BF1",
+        "language": "Tiếng Việt",
+        "quota": "160",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "B00B00:\n                                                                                                       Toán, Hoá, Sinh",
+                    "D07D07:\n                                                                                                       Toán, Anh văn, Hoá",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-sinh-hoc"
+    },
+    {
+        "title": "04- ( BF2 ) Kỹ thuật Thực phẩm",
+        "admission_code": "BF2",
+        "language": "Tiếng Việt",
+        "quota": "360",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "B00B00:\n                                                                                                       Toán, Hoá, Sinh",
+                    "D07D07:\n                                                                                                       Toán, Anh văn, Hoá",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-thuc-pham"
+    },
+    {
+        "title": "05- ( CH-E11 ) Kỹ thuật Hóa dược (Chương trình tiên tiến)",
+        "admission_code": "CH-E11",
+        "language": "Tiếng Anh",
+        "quota": "100",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "B00B00:\n                                                                                                       Toán, Hoá, Sinh",
+                    "D07D07:\n                                                                                                       Toán, Anh văn, Hoá",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-hoa-duoc-chuong-trinh-tien-tien"
+    },
+    {
+        "title": "06- ( CH1 ) Kỹ thuật Hóa học",
+        "admission_code": "CH1",
+        "language": "Tiếng Việt",
+        "quota": "680",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "B00B00:\n                                                                                                       Toán, Hoá, Sinh",
+                    "D07D07:\n                                                                                                       Toán, Anh văn, Hoá",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-hoa-hoc"
+    },
+    {
+        "title": "07- ( CH2 ) Hóa học",
+        "admission_code": "CH2",
+        "language": "Tiếng Việt",
+        "quota": "160",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "B00B00:\n                                                                                                       Toán, Hoá, Sinh",
+                    "D07D07:\n                                                                                                       Toán, Anh văn, Hoá",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/hoa-hoc"
+    },
+    {
+        "title": "08- ( ED2 ) Công nghệ giáo dục",
+        "admission_code": "ED2",
+        "language": "Tiếng Việt",
+        "quota": "120",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "D01D01:\n                                                                                                       Toán, Anh văn, Ngữ văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/cong-nghe-giao-duc"
+    },
+    {
+        "title": "09- ( ED3 ) Quản lý giáo dục",
+        "admission_code": "ED3",
+        "language": "Tiếng Việt",
+        "quota": "60",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "D01D01:\n                                                                                                       Toán, Anh văn, Ngữ văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/quan-ly-giao-duc"
+    },
+    {
+        "title": "10- ( EE-E18 ) Hệ thống điện và năng lượng tái tạo (Chương trình tiên tiến)",
+        "admission_code": "EE-E18",
+        "language": "Tiếng Anh",
+        "quota": "60",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/he-thong-dien-va-nang-luong-tai-tao-chuong-trinh-tien-tien"
+    },
+    {
+        "title": "11- ( EE-E8 ) Kỹ thuật Điều khiển - Tự động hóa (Chương trình tiên tiến)",
+        "admission_code": "EE-E8",
+        "language": "Tiếng Anh",
+        "quota": "",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-dieu-khien-tu-dong-hoa-chuong-trinh-tien-tien"
+    },
+    {
+        "title": "12- ( EE-EP ) Tin học công nghiệp và Tự động hóa (Chương trình Việt-Pháp PFIEV)",
+        "admission_code": "EE-EP",
+        "language": "Tiếng Việt",
+        "quota": "40",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "D29D29:\n                                                                                                       Toán, Pháp, Lý",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/tin-hoc-cong-nghiep-va-tu-dong-hoa-chuong-trinh-viet-phap-pfiev"
+    },
+    {
+        "title": "13- ( EE1 ) Kỹ thuật điện",
+        "admission_code": "EE1",
+        "language": "Tiếng Việt",
+        "quota": "240",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-dien"
+    },
+    {
+        "title": "14- ( EE2 ) Kỹ thuật Điều khiển - Tự động hóa",
+        "admission_code": "EE2",
+        "language": "Tiếng Việt",
+        "quota": "500",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-dieu-khien-tu-dong-hoa"
+    },
+    {
+        "title": "15- ( EM-E13 ) Phân tích kinh doanh (Chương trình tiên tiến)",
+        "admission_code": "EM-E13",
+        "language": "Tiếng Anh",
+        "quota": "140",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "D07D07:\n                                                                                                       Toán, Anh văn, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "D01D01:\n                                                                                                       Toán, Anh văn, Ngữ văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/phan-tich-kinh-doanh-chuong-trinh-tien-tien"
+    },
+    {
+        "title": "16- ( EM-E14 ) Logistics và Quản lý chuỗi cung ứng (Chương trình tiên tiến)",
+        "admission_code": "EM-E14",
+        "language": "Tiếng Anh",
+        "quota": "140",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "D07D07:\n                                                                                                       Toán, Anh văn, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "D01D01:\n                                                                                                       Toán, Anh văn, Ngữ văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/logistics-va-quan-ly-chuoi-cung-ung-chuong-trinh-tien-tien"
+    },
+    {
+        "title": "17- ( EM1 ) Quản lý năng lượng",
+        "admission_code": "EM1",
+        "language": "Tiếng Việt",
+        "quota": "60",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "D01D01:\n                                                                                                       Toán, Anh văn, Ngữ văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/quan-ly-nang-luong"
+    },
+    {
+        "title": "18- ( EM2 ) Quản lý công nghiệp",
+        "admission_code": "EM2",
+        "language": "Tiếng Việt",
+        "quota": "80",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "D01D01:\n                                                                                                       Toán, Anh văn, Ngữ văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/quan-ly-cong-nghiep"
+    },
+    {
+        "title": "19- ( EM3 ) Quản trị kinh doanh",
+        "admission_code": "EM3",
+        "language": "Tiếng Việt",
+        "quota": "120",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "D01D01:\n                                                                                                       Toán, Anh văn, Ngữ văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/quan-tri-kinh-doanh"
+    },
+    {
+        "title": "20- ( EM4 ) Kế toán",
+        "admission_code": "EM4",
+        "language": "Tiếng Việt",
+        "quota": "80",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "D01D01:\n                                                                                                       Toán, Anh văn, Ngữ văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ke-toan"
+    },
+    {
+        "title": "21- ( EM5 ) Tài chính - Ngân hàng",
+        "admission_code": "EM5",
+        "language": "Tiếng Việt",
+        "quota": "80",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "D01D01:\n                                                                                                       Toán, Anh văn, Ngữ văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/tai-chinh-ngan-hang"
+    },
+    {
+        "title": "22- ( ET-E16 ) Truyền thông số và Kỹ thuật đa phương tiện (Chương trình tiên tiến)",
+        "admission_code": "ET-E16",
+        "language": "Tiếng Anh",
+        "quota": "60",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/truyen-thong-so-va-ky-thuat-da-phuong-tien-chuong-trinh-tien-tien"
+    },
+    {
+        "title": "23- ( ET-E4 ) Kỹ thuật Điện tử - Viễn thông (Chương trình tiên tiến)",
+        "admission_code": "ET-E4",
+        "language": "Tiếng Anh",
+        "quota": "120",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-dien-tu-vien-thong-chuong-trinh-tien-tien"
+    },
+    {
+        "title": "24- ( ET-E5 ) Kỹ thuật Y sinh (Chương trình tiên tiến)",
+        "admission_code": "ET-E5",
+        "language": "Tiếng Anh",
+        "quota": "40",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-y-sinh-chuong-trinh-tien-tien"
+    },
+    {
+        "title": "25- ( ET-E9 ) Hệ thống nhúng thông minh và IoT (Chương trình tiên tiến)",
+        "admission_code": "ET-E9",
+        "language": "Tiếng Việt",
+        "quota": "80",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "D28D28:\n                                                                                                       Toán, Lý, Tiếng Nhật                                                 (Toán là môn chính)",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/he-thong-nhung-thong-minh-va-iot-chuong-trinh-tien-tien"
+    },
+    {
+        "title": "26- ( ET-LUH ) Điện tử-Viễn thông - ĐH Leibniz Hannover (Đức)",
+        "admission_code": "ET-LUH",
+        "language": "Tiếng Đức tăng cường",
+        "quota": "40",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "D26D26:\n                                                                                                       Toán, Lý, Đức                                                 (Toán là môn chính)",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/dien-tu-vien-thong-dh-leibniz-hannover-duc"
+    },
+    {
+        "title": "27- ( ET1 ) Điện tử và Viễn thông",
+        "admission_code": "ET1",
+        "language": "Tiếng Việt",
+        "quota": "480",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/dien-tu-va-vien-thong"
+    },
+    {
+        "title": "28- ( ET2 ) Kỹ thuật Y sinh",
+        "admission_code": "ET2",
+        "language": "Tiếng Việt",
+        "quota": "100",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "B00B00:\n                                                                                                       Toán, Hoá, Sinh",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-y-sinh"
+    },
+    {
+        "title": "29- ( EV1 ) Kỹ thuật Môi trường",
+        "admission_code": "EV1",
+        "language": "Tiếng Việt",
+        "quota": "160",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "B00B00:\n                                                                                                       Toán, Hoá, Sinh",
+                    "D07D07:\n                                                                                                       Toán, Anh văn, Hoá",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-moi-truong"
+    },
+    {
+        "title": "30- ( EV2 ) Quản lý Tài nguyên và Môi trường",
+        "admission_code": "EV2",
+        "language": "Tiếng Việt",
+        "quota": "120",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "B00B00:\n                                                                                                       Toán, Hoá, Sinh",
+                    "D07D07:\n                                                                                                       Toán, Anh văn, Hoá",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/quan-ly-tai-nguyen-va-moi-truong"
+    },
+    {
+        "title": "31- ( FL1 ) Tiếng Anh Khoa học Kỹ thuật và Công nghệ",
+        "admission_code": "FL1",
+        "language": "Tiếng Anh",
+        "quota": "210",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "D01D01:\n                                                                                                       Toán, Anh văn, Ngữ văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/tieng-anh-khoa-hoc-ky-thuat-va-cong-nghe"
+    },
+    {
+        "title": "32- ( FL2 ) Tiếng Anh Chuyên nghiệp Quốc tế",
+        "admission_code": "FL2",
+        "language": "Tiếng Anh",
+        "quota": "90",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn",
+                    "D01D01:\n                                                                                                       Toán, Anh văn, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/tieng-anh-chuyen-nghiep-quoc-te"
+    },
+    {
+        "title": "33- ( FL3 ) Tiếng Trung Khoa học và Công nghệ",
+        "admission_code": "FL3",
+        "language": "",
+        "quota": "40",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "D01D01:\n                                                                                                       Toán, Anh văn, Ngữ văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn",
+                    "D04D04:\n                                                                                                       Toán, Ngữ văn, Tiếng Trung"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/tieng-trung-khoa-hoc-va-cong-nghe"
+    },
+    {
+        "title": "34- ( HE1 ) Kỹ thuật Nhiệt",
+        "admission_code": "HE1",
+        "language": "Tiếng Việt",
+        "quota": "250",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-nhiet"
+    },
+    {
+        "title": "35- ( IT-E10 ) Khoa học Dữ liệu và Trí tuệ Nhân tạo (Chương trình tiên tiến)",
+        "admission_code": "IT-E10",
+        "language": "Tiếng Anh",
+        "quota": "120",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/khoa-hoc-du-lieu-va-tri-tue-nhan-tao-chuong-trinh-tien-tien"
+    },
+    {
+        "title": "36- ( IT-E15 ) An toàn không gian số (Chương trình tiên tiến)",
+        "admission_code": "IT-E15",
+        "language": "Tiếng Anh",
+        "quota": "40",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/an-toan-khong-gian-so-chuong-trinh-tien-tien"
+    },
+    {
+        "title": "37- ( IT-E6 ) Công nghệ thông tin (Việt-Nhật) (Chương trình tiên tiến)",
+        "admission_code": "IT-E6",
+        "language": "Tiếng Nhật tăng cường",
+        "quota": "240",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "D28D28:\n                                                                                                       Toán, Lý, Tiếng Nhật                                                 (Toán là môn chính)",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/cong-nghe-thong-tin-viet-nhat-chuong-trinh-tien-tien"
+    },
+    {
+        "title": "38- ( IT-E7 ) Công nghệ thông tin (Global ICT)",
+        "admission_code": "IT-E7",
+        "language": "Tiếng Anh",
+        "quota": "120",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/cong-nghe-thong-tin-global-ict"
+    },
+    {
+        "title": "39- ( IT-EP ) Công nghệ thông tin (Việt-Pháp) (Chương trình tiên tiến)",
+        "admission_code": "IT-EP",
+        "language": "Tiếng Việt",
+        "quota": "40",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "D29D29:\n                                                                                                       Toán, Pháp, Lý",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/cong-nghe-thong-tin-viet-phap-chuong-trinh-tien-tien"
+    },
+    {
+        "title": "40- ( IT1 ) CNTT: Khoa học Máy tính",
+        "admission_code": "IT1",
+        "language": "Tiếng Việt",
+        "quota": "300",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/cntt-khoa-hoc-may-tinh"
+    },
+    {
+        "title": "41- ( IT2 ) CNTT: Kỹ thuật máy tính",
+        "admission_code": "IT2",
+        "language": "Tiếng Việt",
+        "quota": "200",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/cntt-ky-thuat-may-tinh"
+    },
+    {
+        "title": "42- ( ME-E1 ) Kỹ thuật Cơ điện tử (Chương trình tiên tiến)",
+        "admission_code": "ME-E1",
+        "language": "Tiếng Anh",
+        "quota": "180",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-co-dien-tu-chuong-trinh-tien-tien"
+    },
+    {
+        "title": "43- ( ME-GU ) Cơ khí - Chế tạo máy - ĐH Griffith (Úc)",
+        "admission_code": "ME-GU",
+        "language": "Tiếng Anh",
+        "quota": "40",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/co-khi-che-tao-may-dh-griffith-uc"
+    },
+    {
+        "title": "44- ( ME-LUH ) Cơ điện tử - ĐH Leibniz Hannover (Đức)",
+        "admission_code": "ME-LUH",
+        "language": "Tiếng Việt",
+        "quota": "50",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "D26D26:\n                                                                                                       Toán, Lý, Đức                                                 (Toán là môn chính)",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/co-dien-tu-dh-leibniz-hannover-duc"
+    },
+    {
+        "title": "45- ( ME-NUT ) Cơ điện tử - ĐH Nagaoka (Nhật Bản)",
+        "admission_code": "ME-NUT",
+        "language": "Tiếng Việt",
+        "quota": "100",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "D28D28:\n                                                                                                       Toán, Lý, Tiếng Nhật                                                 (Toán là môn chính)",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/co-dien-tu-dh-nagaoka-nhat-ban"
+    },
+    {
+        "title": "46- ( ME1 ) Kỹ thuật Cơ điện tử",
+        "admission_code": "ME1",
+        "language": "Tiếng Việt",
+        "quota": "300",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-co-dien-tu"
+    },
+    {
+        "title": "47- ( ME2 ) Kỹ thuật Cơ khí",
+        "admission_code": "ME2",
+        "language": "Tiếng Việt",
+        "quota": "560",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-co-khi"
+    },
+    {
+        "title": "48- ( MI1 ) Toán - Tin",
+        "admission_code": "MI1",
+        "language": "Tiếng Việt",
+        "quota": "160",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/toan-tin"
+    },
+    {
+        "title": "49- ( MI2 ) Hệ thống thông tin quản lý",
+        "admission_code": "MI2",
+        "language": "Tiếng Việt",
+        "quota": "80",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/he-thong-thong-tin-quan-ly"
+    },
+    {
+        "title": "50- ( MS-E3 ) Khoa học và Kỹ thuật Vật liệu (Chương trình tiên tiến)",
+        "admission_code": "MS-E3",
+        "language": "Tiếng Anh",
+        "quota": "60",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "D07D07:\n                                                                                                       Toán, Anh văn, Hoá"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/khoa-hoc-va-ky-thuat-vat-lieu-chuong-trinh-tien-tien"
+    },
+    {
+        "title": "51- ( MS1 ) Kỹ thuật Vật liệu",
+        "admission_code": "MS1",
+        "language": "Tiếng Việt",
+        "quota": "280",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "D07D07:\n                                                                                                       Toán, Anh văn, Hoá",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-vat-lieu"
+    },
+    {
+        "title": "52- ( MS2 ) Chương trình Kỹ thuật vi điện tử và công nghệ Nano",
+        "admission_code": "MS2",
+        "language": "Tiếng Việt",
+        "quota": "180",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "D07D07:\n                                                                                                       Toán, Anh văn, Hoá",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/chuong-trinh-ky-thuat-vi-dien-tu-va-cong-nghe-nano"
+    },
+    {
+        "title": "53- ( MS3 ) Công nghệ vật liệu polyme và compozit",
+        "admission_code": "MS3",
+        "language": "Tiếng Việt",
+        "quota": "80",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "D07D07:\n                                                                                                       Toán, Anh văn, Hoá",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/cong-nghe-vat-lieu-polyme-va-compozit"
+    },
+    {
+        "title": "54- ( MS5 ) Kỹ thuật in",
+        "admission_code": "MS5",
+        "language": "Tiếng Việt",
+        "quota": "60",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "D07D07:\n                                                                                                       Toán, Anh văn, Hoá",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-in"
+    },
+    {
+        "title": "55- ( PH1 ) Vật lý kỹ thuật",
+        "admission_code": "PH1",
+        "language": "Tiếng Việt",
+        "quota": "200",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/vat-ly-ky-thuat"
+    },
+    {
+        "title": "56- ( PH2 ) Kỹ thuật hạt nhân",
+        "admission_code": "PH2",
+        "language": "Tiếng Việt",
+        "quota": "40",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "A02A02:\n                                                                                                       Toán, Lý, Sinh                                                 (Toán là môn chính)",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-hat-nhan"
+    },
+    {
+        "title": "57- ( PH3 ) Vật lý Y khoa",
+        "admission_code": "PH3",
+        "language": "Tiếng Việt",
+        "quota": "60",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "A02A02:\n                                                                                                       Toán, Lý, Sinh                                                 (Toán là môn chính)",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/vat-ly-y-khoa"
+    },
+    {
+        "title": "58- ( TE-E2 ) Kỹ thuật Ô tô (Chương trình tiên tiến)",
+        "admission_code": "TE-E2",
+        "language": "Tiếng Anh",
+        "quota": "100",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-o-to-chuong-trinh-tien-tien"
+    },
+    {
+        "title": "59- ( TE-EP ) Cơ khí hàng không (Chương trình Việt - Pháp PFIEV)",
+        "admission_code": "TE-EP",
+        "language": "Tiếng Pháp",
+        "quota": "40",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "D29D29:\n                                                                                                       Toán, Pháp, Lý",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/co-khi-hang-khong-chuong-trinh-viet-phap-pfiev"
+    },
+    {
+        "title": "60- ( TE1 ) Kỹ thuật Ô tô",
+        "admission_code": "TE1",
+        "language": "Tiếng Việt",
+        "quota": "200",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-o-to"
+    },
+    {
+        "title": "61- ( TE2 ) Kỹ thuật Cơ khí động lực",
+        "admission_code": "TE2",
+        "language": "Tiếng Việt",
+        "quota": "120",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-co-khi-dong-luc"
+    },
+    {
+        "title": "62- ( TE3 ) Kỹ thuật Hàng không",
+        "admission_code": "TE3",
+        "language": "Tiếng Việt",
+        "quota": "80",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-hang-khong"
+    },
+    {
+        "title": "63- ( TROY-BA ) Quản trị kinh doanh - ĐH Troy (Hoa Kỳ)",
+        "admission_code": "TROY-BA",
+        "language": "Tiếng Anh",
+        "quota": "60",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "D01D01:\n                                                                                                       Toán, Anh văn, Ngữ văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/quan-tri-kinh-doanh-dh-troy-hoa-ky"
+    },
+    {
+        "title": "64- ( TROY-IT ) Khoa học máy tính - ĐH Troy (Hoa Kỳ)",
+        "admission_code": "TROY-IT",
+        "language": "Tiếng Anh",
+        "quota": "120",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "D01D01:\n                                                                                                       Toán, Anh văn, Ngữ văn",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/khoa-hoc-may-tinh-dh-troy-hoa-ky"
+    },
+    {
+        "title": "65- ( TX1 ) Công nghệ Dệt May",
+        "admission_code": "TX1",
+        "language": "Tiếng Việt",
+        "quota": "240",
+        "school": "",
+        "admission_methods": {
+            "Xét tuyển tài năng": {
+                "combinations": [],
+                "cutoff_point": "N/A"
+            },
+            "Xét tuyển theo KQ Kỳ thi ĐGTD": {
+                "combinations": [
+                    "K00K00: Bài thi đánh giá tư duy"
+                ],
+                "cutoff_point": ""
+            },
+            "Xét tuyển theo KQ Kỳ thi TN THPT": {
+                "combinations": [
+                    "A00A00:\n                                                                                                       Toán, Lý, Hoá",
+                    "A01A01:\n                                                                                                       Toán, Lý, Anh văn",
+                    "D07D07:\n                                                                                                       Toán, Anh văn, Hoá",
+                    "K01K01:\n                                                                                                       Toán, Lý/Hóa/Sinh/Tin, Ngữ văn"
+                ],
+                "cutoff_point": ""
+            }
+        },
+        "detail_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/cong-nghe-det-may"
+    }
+]

@@ -1,0 +1,30 @@
+{
+    "program_name": "14- ( EE2 ) Kỹ thuật Điều khiển - Tự động hóa",
+    "admission_code": "EE2",
+    "overview": {
+        "degree": "Cử nhân - Thạc sĩ tích hợp - Tiến sĩ (NCS)",
+        "enrollment_time": "Tháng 4 - 8 hàng năm",
+        "duration": "4 - 5,5 - 8,5 năm",
+        "tuition": "22 - 28 triệu đồng/năm",
+        "description": "Kỹ thuật Điều khiển và Tự động hoá là ngành học nghiên cứu, thiết kế, vận hành các hệ thống tự động, các quá trình công nghệ và sản xuất tự động tại các nhà máy (điện tử, bán dẫn, xi măng, sắt thép, nước giải khát, dược phẩm,…); Thiết kế, điều khiển, giám sát và chế tạo các hệ thống điện cơ, hệ thống robot; quản lý sản phẩm tại các công ty kinh doanh các thiết bị điện tử tự động…"
+    },
+    "training_program_summary": "Khối kiến thức đặc trưng Lý thuyết điều khiển; Kỹ thuật đo lường và các hệ thống cảm biến thông minh; Các hệ thống mạng truyền thông công nghiệp; Kỹ thuật lập trình các chip vi điều khiển, vi xử lý; Lập trình tự động hóa các hệ thống và dây chuyển sản xuất công nghiệp; Điều khiển điện tử công suất và truyền động điện; Các hệ thống điều khiển giám sát thời gian thực; Kỹ thuật điều khiển Robot; Kỹ thuật mạng nơron và trí tuệ nhân tạo (AI)... Chương trình đào tạo chi tiết: XEM TẠI ĐÂY",
+    "job_opportunities": [
+        "Nghiên cứu, phát triển các thiết bị tự động thông minh và hệ thống điều khiển hiện đại hướng tới công nghiệp 4.0, Internet vạn vật (IoT), trí tuệ nhân tạo (AI).",
+        "Kỹ sư nghiên cứu và phát triển sản phẩm Tự động hóa;",
+        "Kỹ sư thiết kế, lắp đặt, vận hành và sửa chữa các hệ thống tự động hóa, các dây chuyền sản xuất tự động."
+    ],
+    "contact": {
+        "phone": "098 925 8854",
+        "email": "phuong.vuhoang@hust.edu.vn",
+        "address": "Phòng E605, Toà nhà C7, ĐHBK Hà Nội"
+    },
+    "management_unit": {
+        "name": "Trường Điện - Điện tử (SEEE)",
+        "address": "Văn phòng: C1 - 320",
+        "hotline": "024 3869 6211&024 3623 1478",
+        "email": "seee@hust.edu.vn",
+        "website": "https://seee.hust.edu.vn/"
+    },
+    "source_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/ky-thuat-dieu-khien-tu-dong-hoa"
+}
