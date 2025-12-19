@@ -1,0 +1,32 @@
+{
+    "program_name": "27- ( ET1 ) Điện tử và Viễn thông",
+    "admission_code": "ET1",
+    "overview": {
+        "degree": "Cử nhân - Thạc sĩ - Tiến sĩ tích hợp (NCS)",
+        "enrollment_time": "Tháng 4 - Tháng 8 hàng năm",
+        "duration": "4 - 5,5 - 8,5 năm",
+        "tuition": "22 - 28 triệu đồng/năm",
+        "description": "Giới thiệu"
+    },
+    "training_program_summary": "Chương trình Kỹ thuật Điện tử Viễn thông được giảng dạy bằng Tiếng Việt bao gồm các khối kiến thức đặc trưng Bộ vi xử lý, Kỹ thuật lập trình, Kỹ thuật phần mềm ứng dụng; Thiết kế, chế tạo vi mạch, chip bán dẫn; Kiến thức mạng viễn thông, mạng máy tính: điện toán đám mây, mạng IoT, mạng 4G/5G. Thông tin chi tiết chương trình đào tạo - XEM TẠI ĐÂY",
+    "job_opportunities": [
+        "Chip bán dẫn, mạch điện tử: thiết kế, chế tạo, đo kiểm vi mạch và chip bán dẫn;",
+        "Kỹ thuật máy tính: Phát triển và lập trình các hệ thống công nghệ thông tin, phần mềm máy tính, phần mềm nhúng, máy chủ, hệ quản trị cơ sở dữ liệu;",
+        "Viễn thông: Thiết kế vận hành mạng Viễn thông (4G/5G), mạng Máy tính, điện toán đám mây, hạ tầng số, thiết kế ăng-ten;",
+        "Trí tuệ nhân tạo và phân tích dữ liệu: sử dụng các mô hình máy học, AI trong giải quyết các bài toán CNTT, xử lý dữ liệu;",
+        "Điện tử Y sinh: Lắp đặt vận hành, nghiên cứu thiết kế máy móc Y tế."
+    ],
+    "contact": {
+        "phone": "0963 122 389",
+        "email": "minh.nguyenduc1@hust.edu.vn",
+        "address": "Phòng E605, Toà nhà C7, ĐHBK Hà Nội"
+    },
+    "management_unit": {
+        "name": "Trường Điện - Điện tử (SEEE)",
+        "address": "Văn phòng: C1 - 320",
+        "hotline": "024 3869 6211&024 3623 1478",
+        "email": "seee@hust.edu.vn",
+        "website": "https://seee.hust.edu.vn/"
+    },
+    "source_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc/dien-tu-va-vien-thong"
+}
