@@ -1,0 +1,81 @@
+#!/bin/bash
+
+# Docker Compose for local development with optional services
+
+version: '3.8'
+
+services:
+  rag-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      EMBEDDING_PROVIDER: sentence-transformers
+      EMBEDDING_MODEL: bkai-foundation-models/vietnamese-bi-encoder
+      TOP_K: "5"
+      HYBRID_ALPHA: "0.55"
+      CHUNK_SIZE: "500"
+      CHUNK_OVERLAP: "75"
+    volumes:
+      - ./data:/app/data
+      - ./src:/app/src
+    command: uvicorn src.rag.server:app --host 0.0.0.0 --port 8000 --reload
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/healthz"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  # Optional: Weaviate vector database
+  weaviate:
+    image: semitechnologies/weaviate:1.24.11
+    ports:
+      - "8080:8080"
+    environment:
+      QUERY_DEFAULTS_LIMIT: 25
+      AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: 'true'
+      PERSISTENCE_DATA_PATH: '/var/lib/weaviate'
+      ENABLE_MODULES: 'text2vec-transformers'
+      DEFAULT_VECTORIZER_MODULE: 'text2vec-transformers'
+    volumes:
+      - weaviate_data:/var/lib/weaviate
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/v1/.well-known/ready"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  # Optional: Prometheus for metrics (requires ServiceMonitor in Helm chart)
+  prometheus:
+    image: prom/prometheus:latest
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+    depends_on:
+      - rag-api
+
+  # Optional: Grafana for dashboards
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: admin
+      GF_SECURITY_ADMIN_USER: admin
+    volumes:
+      - grafana_data:/var/lib/grafana
+    depends_on:
+      - prometheus
+
+volumes:
+  weaviate_data:
+  prometheus_data:
+  grafana_data:

@@ -1,0 +1,5 @@
+apiVersion: v2
+name: rag-chatbot
+version: 0.1.0
+appVersion: "0.1.0"
+description: RAG chatbot deployment (FastAPI) for HUST on GKE

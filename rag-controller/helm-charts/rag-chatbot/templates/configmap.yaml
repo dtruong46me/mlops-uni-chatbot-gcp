@@ -1,0 +1,12 @@
+{{- if .Values.configmap.enabled }}
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Values.configmap.name }}
+  labels:
+    app: {{ include "rag-chatbot.name" . }}
+data:
+{{- range $key, $val := .Values.configmap.data }}
+  {{ $key }}: {{ $val | quote }}
+{{- end }}
+{{- end }}
