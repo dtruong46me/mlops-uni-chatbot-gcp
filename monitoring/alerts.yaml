@@ -1,0 +1,19 @@
+groups:
+  - name: rag-chatbot.rules
+    rules:
+      - alert: HighErrorRate
+        expr: rate(http_requests_total{app="rag-chatbot",status=~"5.."}[5m]) / rate(http_requests_total{app="rag-chatbot"}[5m]) > 0.05
+        for: 10m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High 5xx error rate on rag-chatbot"
+          description: "More than 5% of requests are failing over 10m."
+      - alert: HighCPUUtilization
+        expr: avg(node_namespace_pod_container:container_cpu_usage_seconds_total:sum_rate{namespace="rag"}) by (namespace) > 0.8
+        for: 10m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High CPU usage in namespace rag"
+          description: "CPU utilization above 80% for 10m."
