@@ -1,0 +1,4 @@
+[core]
+    remote = myremote-dvc
+['remote "myremote-dvc"']
+    url = gs://uni-chatbot-gcs/dvc-store
