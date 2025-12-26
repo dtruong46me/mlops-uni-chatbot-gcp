@@ -1,0 +1,98 @@
+image:
+  repository: gcr.io/your-project/hust-rag-chatbot
+  tag: latest
+  pullPolicy: IfNotPresent
+
+replicaCount: 2
+
+service:
+  type: ClusterIP
+  port: 8000
+
+resources:
+  limits:
+    cpu: 2000m
+    memory: 4Gi
+    nvidia.com/gpu: "1"  # Request 1 GPU
+  requests:
+    cpu: 1000m
+    memory: 2Gi
+    nvidia.com/gpu: "1"
+
+# Static environment variables injected directly
+env:
+  OPENAI_API_KEY: ""
+  OPENAI_MODEL: "gpt-4o-mini"
+  EMBEDDING_PROVIDER: "sentence-transformers"
+  EMBEDDING_MODEL: "bkai-foundation-models/vietnamese-bi-encoder"
+  TOP_K: "5"
+  HYBRID_ALPHA: "0.55"
+  CHUNK_SIZE: "500"
+  CHUNK_OVERLAP: "75"
+
+# Optional ConfigMap-style settings (mirrors reference RAG controller chart)
+configmap:
+  enabled: true
+  name: "rag-configmap"
+  data:
+    PROFILES: prod
+    RAG_WORKERS: "1"
+    LLM_MODE: openai
+    EMBEDDING_MODE: sentence-transformers
+    VECTOR_STORE: weaviate
+    LLM_ENDPOINT: ""
+    VLLM_ENDPOINT: ""
+    TEXT_EMBEDDINGS_INFERENCE_ENDPOINT: ""
+    WEAVIATE_ENDPOINT: ""
+    SIMILARITY_TOP_K: "5"
+    VLLM_MAX_TOKENS: "512"
+
+# Optional Secret for sensitive keys (e.g., NVIDIA_NIM_API, OpenAI keys)
+secret:
+  enabled: false
+  name: "rag-secret"
+  data:
+    NVIDIA_NIM_API: ""
+
+extraEnv: []
+
+nodeSelector: {}
+tolerations:
+  # Allow scheduling on GPU nodes with accelerator=gpu taint
+  - key: accelerator
+    operator: Equal
+    value: gpu
+    effect: NoSchedule
+affinity:
+  nodeAffinity:
+    preferredDuringSchedulingIgnoredDuringExecution:
+      - weight: 100
+        preference:
+          matchExpressions:
+            - key: workload
+              operator: In
+              values:
+                - gpu
+
+ingress:
+  enabled: false
+  className: ""
+  annotations: {}
+  hosts:
+    - host: chatbot.example.com
+      paths:
+        - path: /
+          pathType: Prefix
+  tls: []
+
+serviceMonitor:
+  enabled: false
+  interval: 30s
+  scrapeTimeout: 10s
+
+hpa:
+  enabled: true
+  minReplicas: 2
+  maxReplicas: 5
+  cpu:
+    targetAverageUtilization: 70
