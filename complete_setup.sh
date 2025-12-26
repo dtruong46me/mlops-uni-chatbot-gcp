@@ -114,17 +114,33 @@ echo ""
 # Step 5: Provision GKE Cluster
 log_step "5/10" "Provision GKE Cluster (Terraform)"
 cd rag-controller/terraform
-terraform init -upgrade -q
+terraform init -upgrade > /dev/null 2>&1
 log_success "Terraform initialized"
 
 echo "  Applying Terraform configuration..."
-terraform apply \
+if terraform apply \
   -var project_id=$PROJECT_ID \
   -var region=$REGION \
   -var cluster_name=$CLUSTER_NAME \
   -auto-approve \
-  > /dev/null 2>&1
-log_success "GKE cluster created/updated"
+  2>&1 | tee /tmp/terraform-apply.log | grep -q "Apply complete"; then
+  log_success "GKE cluster created/updated"
+elif grep -q "Already exists" /tmp/terraform-apply.log; then
+  log_warning "Cluster already exists, importing to Terraform state..."
+  terraform import -var project_id=$PROJECT_ID -var region=$REGION -var cluster_name=$CLUSTER_NAME \
+    google_container_cluster.rag projects/$PROJECT_ID/locations/$REGION/clusters/$CLUSTER_NAME > /dev/null 2>&1
+  
+  # Check and import GPU node pool if exists
+  if gcloud container node-pools describe gpu-pool --cluster=$CLUSTER_NAME --region=$REGION --project=$PROJECT_ID > /dev/null 2>&1; then
+    terraform import -var project_id=$PROJECT_ID -var region=$REGION -var cluster_name=$CLUSTER_NAME \
+      google_container_node_pool.gpu projects/$PROJECT_ID/locations/$REGION/clusters/$CLUSTER_NAME/nodePools/gpu-pool > /dev/null 2>&1
+  fi
+  
+  log_success "Cluster imported to Terraform state"
+else
+  log_error "Terraform apply failed, check /tmp/terraform-apply.log for details"
+  exit 1
+fi
 
 # Get kubeconfig
 KUBECONFIG_CMD=$(terraform output -raw kubeconfig 2>/dev/null || echo "gcloud container clusters get-credentials $CLUSTER_NAME --region $REGION --project $PROJECT_ID")
