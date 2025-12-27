@@ -97,6 +97,41 @@ Run `python -m unittest tests.test`.
 python -m unittest tests.test -v
 ```
 
+## LLM Answer API
+
+A lightweight endpoint exposing a direct LLM completion for free-form prompts. Useful for experimenting with models or building UI components.
+
+POST /llm/answer
+
+Payload:
+```json
+{ "prompt": "Explain the tuition fees at HUST in Vietnamese.", "model": "gpt-4o-mini", "temperature": 0.2 }
+```
+
+Example:
+```bash
+curl -sS -X POST http://localhost:8000/llm/answer -H 'Content-Type: application/json' -d '{"prompt":"What is HUST?"}'
+```
+
+Notes:
+- The endpoint respects `OPENAI_API_KEY` (or uses a noop fallback if not set).
+- For retrieval-augmented answers, use the existing `/ask` endpoint which combines retrieval + LLM.
+
+## Web UI
+
+A minimal web UI is included at `src/ui/static` and served by the FastAPI app at `/ui/` (e.g., http://localhost:8000/ui/ when running locally). It provides two simple workflows:
+
+- **Ask (RAG)** — calls `/ask` to retrieve contexts and synthesize an answer.
+- **LLM** — calls `/llm/answer` for free-form prompts.
+
+To run locally:
+```bash
+pip install -r requirements.txt
+./start_local.sh  # or run uvicorn directly
+# then open http://localhost:8000/ui/
+```
+
+
 ## CI/CD
 
 `Jenkinsfile` contains a 5-stage pipeline:

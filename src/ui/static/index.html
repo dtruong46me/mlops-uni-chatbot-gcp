@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>HUST RAG Chatbot UI</title>
+  <link rel="stylesheet" href="/ui/styles.css" />
+</head>
+<body>
+  <div id="app">
+    <h1>HUST RAG Chatbot</h1>
+
+    <div class="tabs">
+      <button id="tab-ask" class="active">Ask (RAG)</button>
+      <button id="tab-llm">LLM</button>
+    </div>
+
+    <div id="panel-ask" class="panel">
+      <textarea id="question" placeholder="Ask a question..." rows="4"></textarea>
+      <div class="controls">
+        <button id="ask-btn">Ask</button>
+      </div>
+      <div id="answer-area"></div>
+    </div>
+
+    <div id="panel-llm" class="panel hidden">
+      <textarea id="prompt" placeholder="LLM prompt..." rows="4"></textarea>
+      <div class="controls">
+        <button id="llm-btn">Send to LLM</button>
+      </div>
+      <div id="llm-area"></div>
+    </div>
+
+    <footer>API: <code>/ask</code> and <code>/llm/answer</code></footer>
+  </div>
+  <script src="/ui/app.js"></script>
+</body>
+</html>

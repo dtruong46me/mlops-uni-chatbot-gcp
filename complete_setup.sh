@@ -64,7 +64,7 @@ else
   log_warning "Virtual environment already exists"
 fi
 source .venv/bin/activate
-pip install -q -r requirements.txt
+pip install -r requirements.txt
 log_success "Dependencies installed"
 echo ""
 
@@ -85,7 +85,7 @@ gcloud services enable compute.googleapis.com container.googleapis.com artifactr
 log_success "GCP APIs enabled"
 
 # Create Artifact Registry
-if gcloud artifacts repositories describe chatbot --location=$REGION --project=$PROJECT_ID > /dev/null 2>&1; then
+if gcloud artifacts repositories describe chatbot --location=$REGION --project=$PROJECT_ID ; then
   log_warning "Artifact Registry repository already exists"
 else
   gcloud artifacts repositories create chatbot \
@@ -99,22 +99,22 @@ echo ""
 
 # Step 4: Build & Push Docker Image
 log_step "4/10" "Build & Push Docker Image"
-gcloud auth configure-docker ${REGION}-docker.pkg.dev -q
+gcloud auth configure-docker ${REGION}-docker.pkg.dev
 log_success "Docker authentication configured"
 
 echo "  Building Docker image..."
-docker build -t $REGISTRY/$IMAGE_NAME:$IMAGE_TAG . > /dev/null 2>&1
+docker build -t $REGISTRY/$IMAGE_NAME:$IMAGE_TAG .
 log_success "Docker image built"
 
 echo "  Pushing to registry..."
-docker push $REGISTRY/$IMAGE_NAME:$IMAGE_TAG > /dev/null 2>&1
+docker push $REGISTRY/$IMAGE_NAME:$IMAGE_TAG 
 log_success "Image pushed to $REGISTRY/$IMAGE_NAME:$IMAGE_TAG"
 echo ""
 
 # Step 5: Provision GKE Cluster
 log_step "5/10" "Provision GKE Cluster (Terraform)"
 cd rag-controller/terraform
-terraform init -upgrade > /dev/null 2>&1
+terraform init -upgrade 
 log_success "Terraform initialized"
 
 echo "  Applying Terraform configuration..."
@@ -128,12 +128,12 @@ if terraform apply \
 elif grep -q "Already exists" /tmp/terraform-apply.log; then
   log_warning "Cluster already exists, importing to Terraform state..."
   terraform import -var project_id=$PROJECT_ID -var region=$REGION -var cluster_name=$CLUSTER_NAME \
-    google_container_cluster.rag projects/$PROJECT_ID/locations/$REGION/clusters/$CLUSTER_NAME > /dev/null 2>&1
+    google_container_cluster.rag projects/$PROJECT_ID/locations/$REGION/clusters/$CLUSTER_NAME 
   
   # Check and import GPU node pool if exists
-  if gcloud container node-pools describe gpu-pool --cluster=$CLUSTER_NAME --region=$REGION --project=$PROJECT_ID > /dev/null 2>&1; then
+  if gcloud container node-pools describe gpu-pool --cluster=$CLUSTER_NAME --region=$REGION --project=$PROJECT_ID ; then
     terraform import -var project_id=$PROJECT_ID -var region=$REGION -var cluster_name=$CLUSTER_NAME \
-      google_container_node_pool.gpu projects/$PROJECT_ID/locations/$REGION/clusters/$CLUSTER_NAME/nodePools/gpu-pool > /dev/null 2>&1
+      google_container_node_pool.gpu projects/$PROJECT_ID/locations/$REGION/clusters/$CLUSTER_NAME/nodePools/gpu-pool 
   fi
   
   log_success "Cluster imported to Terraform state"
@@ -156,16 +156,22 @@ kubectl create namespace $NAMESPACE --dry-run=client -o yaml | kubectl apply -f 
 log_success "Namespace '$NAMESPACE' ready"
 
 echo "  Deploying RAG chatbot..."
+if ! command -v helm >/dev/null 2>&1; then
+  echo "✗ helm not found. Install Helm: https://helm.sh/docs/intro/install/"
+  exit 1
+fi
+
+echo "  Deploying RAG chatbot (logs: /tmp/helm-rag-upgrade.log)..."
 helm upgrade --install rag rag-controller/helm-charts/rag-chatbot \
   --namespace $NAMESPACE \
   --set image.repository=$REGISTRY/$IMAGE_NAME \
   --set image.tag=$IMAGE_TAG \
   --set replicaCount=2 \
-  -q > /dev/null 2>&1
+  --wait --timeout=300s 2>&1 | tee /tmp/helm-rag-upgrade.log
 log_success "Helm deployment completed"
 
 echo "  Waiting for pods to be ready..."
-if kubectl -n $NAMESPACE wait --for=condition=ready pod -l app=rag-chatbot --timeout=300s > /dev/null 2>&1; then
+if kubectl -n $NAMESPACE wait --for=condition=ready pod -l app=rag-chatbot --timeout=300s ; then
   log_success "All pods are ready"
 else
   log_warning "Pods may still be starting, but continuing..."
@@ -178,19 +184,19 @@ kubectl create namespace $MONITORING_NS --dry-run=client -o yaml | kubectl apply
 log_success "Monitoring namespace created"
 
 echo "  Adding Prometheus Helm repository..."
-helm repo add prometheus-community https://prometheus-community.github.io/helm-charts -q 2>/dev/null || true
-helm repo update -q
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts 2>/dev/null || true
+helm repo update
 log_success "Helm repository updated"
 
 echo "  Installing kube-prometheus-stack..."
 helm upgrade --install prometheus prometheus-community/kube-prometheus-stack \
   --namespace $MONITORING_NS \
-  -f monitoring/kube-prometheus-stack-values.yaml \
-  -q > /dev/null 2>&1
+  -f monitoring/kube-prometheus-stack-values.yaml
+ 
 log_success "Prometheus stack deployed"
 
 echo "  Waiting for monitoring pods..."
-if kubectl -n $MONITORING_NS wait --for=condition=ready pod -l app.kubernetes.io/name=prometheus --timeout=300s > /dev/null 2>&1; then
+if kubectl -n $MONITORING_NS wait --for=condition=ready pod -l app.kubernetes.io/name=prometheus --timeout=300s ; then
   log_success "Prometheus is ready"
 else
   log_warning "Prometheus may still be starting"
@@ -203,8 +209,7 @@ echo "  Configuring RAG service monitoring..."
 helm upgrade rag rag-controller/helm-charts/rag-chatbot \
   --namespace $NAMESPACE \
   --set serviceMonitor.enabled=true \
-  --reuse-values \
-  -q > /dev/null 2>&1
+  --reuse-values
 log_success "ServiceMonitor enabled for RAG service"
 echo ""
 

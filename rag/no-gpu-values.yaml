@@ -1,0 +1,19 @@
+# Override values to run RAG without requesting GPUs (fast, non-production)
+# Removes nvidia.com/gpu requests and reduces resource requests so pods can schedule
+resources:
+  limits:
+    cpu: "2000m"
+    memory: "4Gi"
+  requests:
+    cpu: "500m"
+    memory: "1Gi"
+
+# Ensure no nodeSelector or tolerations force GPU-only scheduling
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
+
+# Keep replicaCount as in chart or tune as needed
+replicaCount: 2

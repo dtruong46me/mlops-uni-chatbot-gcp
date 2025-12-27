@@ -1,0 +1,16 @@
+prometheus:
+  prometheusSpec:
+    nodeSelector:
+      monitoring: "true"
+
+grafana:
+  nodeSelector:
+    monitoring: "true"
+
+prometheusOperator:
+  nodeSelector:
+    monitoring: "true"
+
+kube-state-metrics:
+  nodeSelector:
+    monitoring: "true"
