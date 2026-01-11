@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>HUST RAG Chatbot UI</title>
-  <link rel="stylesheet" href="/ui/styles.css" />
+  <title>{{ title or "HUST RAG Chatbot UI" }}</title>
+  <link rel="stylesheet" href="/ui/static/styles.css" />
 </head>
 <body>
   <div id="app">
@@ -32,6 +32,6 @@
 
     <footer>API: <code>/chat</code> (unified RAG + LLM)</footer>
   </div>
-  <script src="/ui/app.js"></script>
+  <script src="/ui/static/app.js"></script>
 </body>
 </html>

@@ -117,6 +117,33 @@ Notes:
 - The endpoint respects `OPENAI_API_KEY` (or uses a noop fallback if not set).
 - For retrieval-augmented answers, use the existing `/ask` endpoint which combines retrieval + LLM.
 
+### Adding `OPENAI_API_KEY` to GKE
+
+You can provide your OpenAI API key to the running pods in two ways:
+
+1) Create a Kubernetes Secret and tell Helm to reference it (recommended):
+
+```bash
+# set the env var locally
+export OPENAI_API_KEY="sk-..."
+# create/update the secret in the rag namespace
+./scripts/create-openai-secret.sh
+# upgrade Helm and tell it to reference the existing secret
+helm upgrade --install rag rag-controller/helm-charts/rag-chatbot \
+  --namespace rag --set secret.useExisting=true --timeout 10m
+```
+
+2) Let Helm create the Secret for you (avoid committing secrets to the repo):
+
+```bash
+helm upgrade --install rag rag-controller/helm-charts/rag-chatbot \
+  --namespace rag --set secret.enabled=true \
+  --set-string "secret.data.OPENAI_API_KEY=${OPENAI_API_KEY}" \
+  --timeout 10m
+```
+
+Choose the method that fits your security policies. The chart will inject the secret into pod env via `envFrom` so your app will receive `OPENAI_API_KEY` as an environment variable.
+
 ## Web UI
 
 A minimal web UI is included at `src/ui/static` and served by the FastAPI app at `/ui/` (e.g., http://localhost:8000/ui/ when running locally). It provides two simple workflows:

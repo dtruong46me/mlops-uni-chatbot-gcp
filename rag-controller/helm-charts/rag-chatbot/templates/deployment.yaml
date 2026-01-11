@@ -35,13 +35,13 @@ spec:
             - name: {{ .name }}
               value: {{ .value | quote }}
             {{- end }}
-          {{- if or .Values.configmap.enabled .Values.secret.enabled }}
+          {{- if or .Values.configmap.enabled .Values.secret.enabled .Values.secret.useExisting }}
           envFrom:
             {{- if .Values.configmap.enabled }}
             - configMapRef:
                 name: {{ .Values.configmap.name }}
             {{- end }}
-            {{- if .Values.secret.enabled }}
+            {{- if or .Values.secret.enabled .Values.secret.useExisting }}
             - secretRef:
                 name: {{ .Values.secret.name }}
             {{- end }}

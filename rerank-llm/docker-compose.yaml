@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  rerank:
+    image: python:3.10-slim
+    command: sh -c "pip install --no-cache-dir fastapi uvicorn python-dotenv && uvicorn src.rerank_llm.server:app --host 0.0.0.0 --port 8500 --reload"
+    ports:
+      - "8500:8500"
+    environment:
+      RERANK_MODE: "similarity"
+      OPENAI_MODEL: "gpt-4o-mini"
+      OPENAI_API_KEY: "${OPENAI_API_KEY:-}"
+    volumes:
+      - ../src:/app/src
+    working_dir: /app

@@ -12,6 +12,16 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
+# Verify Jinja2 is available; fail the build early if not present
+RUN python - <<'PY'
+import importlib, sys
+try:
+    importlib.import_module('jinja2')
+    print('JINJA2_OK')
+except Exception as e:
+    print('JINJA2_MISSING:', e)
+    sys.exit(1)
+PY
 
 COPY src ./src
 COPY data ./data

@@ -30,13 +30,39 @@ log_error() {
 }
 
 # Configuration
-if [ -z "$PROJECT_ID" ]; then
-  read -p "Enter GCP Project ID: " PROJECT_ID
+# Load existing .env (if any) so saved PROJECT_ID/OPENAI_API_KEY are reused
+if [ -f ".env" ]; then
+  log_step "init" "Loading existing .env"
+  set -a
+  # shellcheck source=/dev/null
+  source .env || true
+  set +a
 fi
 
+# Prompt for Project ID (show current as default; require non-empty value)
+while [ -z "${PROJECT_ID:-}" ]; do
+  read -p "Enter GCP Project ID [${PROJECT_ID:-}]: " _input_project
+  if [ -n "$_input_project" ]; then
+    PROJECT_ID="$_input_project"
+  fi
+  if [ -z "${PROJECT_ID:-}" ]; then
+    log_warning "Project ID is required. Press Ctrl+C to cancel or enter a valid project ID."
+  fi
+done
+
+# Ensure REGION has a default
 if [ -z "$REGION" ]; then
   REGION="asia-southeast1"
 fi
+
+# Persist PROJECT_ID into .env (create file if needed)
+touch .env
+if grep -q '^PROJECT_ID=' .env 2>/dev/null; then
+  sed -i "s|^PROJECT_ID=.*|PROJECT_ID=\"$PROJECT_ID\"|" .env
+else
+  echo "PROJECT_ID=\"$PROJECT_ID\"" >> .env
+fi
+log_success "Saved PROJECT_ID to .env"
 
 export PROJECT_ID REGION
 export CLUSTER_NAME="rag-chatbot-gke"
@@ -45,6 +71,8 @@ export IMAGE_TAG="v1"
 export REGISTRY="$REGION-docker.pkg.dev/$PROJECT_ID/chatbot"
 export NAMESPACE="rag"
 export MONITORING_NS="monitoring"
+# Kubernetes secret name to store sensitive keys (created if OPENAI_API_KEY provided)
+export SECRET_NAME="rag-secret"
 
 echo -e "${BLUE}=== Configuration ===${NC}"
 echo "Project ID: $PROJECT_ID"
@@ -65,7 +93,37 @@ else
 fi
 source .venv/bin/activate
 pip install -r requirements.txt
-log_success "Dependencies installed"
+# Ensure jinja2 is installed in the virtualenv (requirements should include it)
+if ! python -c "import jinja2" 2>/dev/null; then
+  log_warning "jinja2 not found; installing jinja2 into virtualenv"
+  pip install jinja2
+fi
+log_success "Dependencies installed (jinja2 verified)"
+
+# Prompt for OpenAI API key (optional) and save to local .env (not committed)
+# If a key exists in .env, use it without prompting; otherwise prompt the user once
+if [ -n "$OPENAI_API_KEY" ]; then
+  log_step "key" "Using existing OpenAI API key from .env"
+else
+  read -s -p "Enter your OpenAI API key (press Enter to skip): " OPENAI_API_KEY_INPUT
+echo
+  if [ -n "$OPENAI_API_KEY_INPUT" ]; then
+    OPENAI_API_KEY="$OPENAI_API_KEY_INPUT"
+  fi
+fi
+# Persist OPENAI_API_KEY into .env (create file if needed)
+touch .env
+if grep -q '^OPENAI_API_KEY=' .env 2>/dev/null; then
+  sed -i "s|^OPENAI_API_KEY=.*|OPENAI_API_KEY=\"$OPENAI_API_KEY\"|" .env
+else
+  echo "OPENAI_API_KEY=\"$OPENAI_API_KEY\"" >> .env
+fi
+if [ -n "$OPENAI_API_KEY" ]; then
+  log_success "Saved OpenAI API key to .env (local development)"
+else
+  log_warning "No OpenAI API key provided; LLM will be unavailable locally"
+fi
+
 echo ""
 
 # Step 2: Run Tests
@@ -146,6 +204,15 @@ fi
 KUBECONFIG_CMD=$(terraform output -raw kubeconfig 2>/dev/null || echo "gcloud container clusters get-credentials $CLUSTER_NAME --region $REGION --project $PROJECT_ID")
 eval $KUBECONFIG_CMD
 log_success "Kubeconfig configured"
+
+# If OPENAI_API_KEY was provided earlier (or set in the environment), create/update the Kubernetes secret
+if [ -n "$OPENAI_API_KEY" ]; then
+  kubectl create namespace $NAMESPACE --dry-run=client -o yaml | kubectl apply -f -
+  kubectl create secret generic $SECRET_NAME --from-literal=OPENAI_API_KEY="$OPENAI_API_KEY" -n $NAMESPACE --dry-run=client -o yaml | kubectl apply -f -
+  log_success "Created/updated Kubernetes secret '$SECRET_NAME' in namespace '$NAMESPACE'"
+else
+  log_warning "No OPENAI_API_KEY to add to Kubernetes secret; continuing without LLM secret"
+fi
 
 cd ../..
 echo ""

@@ -1,6 +1,6 @@
 image:
-  repository: gcr.io/your-project/hust-rag-chatbot
-  tag: latest
+  repository: asia-southeast1-docker.pkg.dev/exercise-428817/chatbot/hust-rag-chatbot
+  tag: 9aff78c
   pullPolicy: IfNotPresent
 
 replicaCount: 2
@@ -11,13 +11,11 @@ service:
 
 resources:
   limits:
-    cpu: 2000m
-    memory: 4Gi
-    nvidia.com/gpu: "1"  # Request 1 GPU
+    cpu: 200m
+    memory: 512Mi
   requests:
-    cpu: 1000m
-    memory: 2Gi
-    nvidia.com/gpu: "1"
+    cpu: 50m
+    memory: 128Mi
 
 # Static environment variables injected directly
 env:
@@ -49,30 +47,15 @@ configmap:
 
 # Optional Secret for sensitive keys (e.g., NVIDIA_NIM_API, OpenAI keys)
 secret:
-  enabled: false
+  enabled: true
   name: "rag-secret"
-  data:
-    NVIDIA_NIM_API: ""
+  useExisting: true
 
 extraEnv: []
 
 nodeSelector: {}
-tolerations:
-  # Allow scheduling on GPU nodes with accelerator=gpu taint
-  - key: accelerator
-    operator: Equal
-    value: gpu
-    effect: NoSchedule
-affinity:
-  nodeAffinity:
-    preferredDuringSchedulingIgnoredDuringExecution:
-      - weight: 100
-        preference:
-          matchExpressions:
-            - key: workload
-              operator: In
-              values:
-                - gpu
+tolerations: []
+affinity: {}
 
 ingress:
   enabled: false

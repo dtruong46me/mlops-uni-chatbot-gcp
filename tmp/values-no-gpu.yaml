@@ -1,0 +1,13 @@
+replicaCount: 1
+secret:
+  enabled: false
+resources:
+  limits:
+    nvidia.com/gpu: "0"
+  requests:
+    nvidia.com/gpu: "0"
+# Remove GPU affinity/tolerations so pods can be scheduled on non-GPU nodes
+tolerations: []
+affinity:
+  nodeAffinity:
+    preferredDuringSchedulingIgnoredDuringExecution: []
